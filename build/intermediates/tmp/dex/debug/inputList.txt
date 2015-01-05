@@ -1,0 +1,2 @@
+C:\Users\valentin\Desktop\Nouveau dossier\NewApp1\NewApp1\app1\build\intermediates\classes\debug
+C:\Users\valentin\Desktop\Nouveau dossier\NewApp1\NewApp1\app1\build\intermediates\pre-dexed\debug\android-support-v4-fb849aeb4a227900ec99affcd6be531b8b757a2d.jar

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app1.MainActivity" >
+
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Bienvenue dans notre application"
+        android:inputType="numberDecimal" />
+
+    <ListView
+        android:id="@+id/listProg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Nom"
+        android:layout_below="@+id/Nom"
+        android:choiceMode="multipleChoice" >
+
+    </ListView>
+ </RelativeLayout>
+<!-- From: file:/C:/Users/valentin/Desktop/Nouveau%20dossier/NewApp1/NewApp1/app1/res/layout/login_display.xml -->
