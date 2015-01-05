@@ -19,7 +19,7 @@ public class main extends Fragment  {
 		b.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				Intent intent = new Intent(Intent.ACTION_VIEW, Uri
-						.parse("http://www.google.fr"));
+						.parse("http://binouze.fabrigli.fr"));
 				startActivity(intent);
 			}
 		});
